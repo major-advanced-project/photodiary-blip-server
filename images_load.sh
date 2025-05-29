@@ -12,4 +12,4 @@ IMAGE3="/Users/namkyeongsik/Desktop/image3.png"
 curl -X POST "$URL" \
   -F "files=@$IMAGE1" \
   -F "files=@$IMAGE2" \
-  -F "files=@$IMAGE3" \
+  -F "files=@$IMAGE3" 

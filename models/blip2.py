@@ -1,9 +1,14 @@
 from transformers import Blip2Processor, Blip2ForConditionalGeneration
 import torch
 import os
+from huggingface_hub import login
+from dotenv import load_dotenv
+
+# 환경변수 로드
+load_dotenv()
 
 # 환경 변수로부터 토큰 가져오기
-token = os.getenv("HUGGINGFACE_HUB_TOKEN")
+token = os.getenv("HUGGINGFACE_TOKEN")
 if token is None:
     raise ValueError("환경 변수 HUGGINGFACE_HUB_TOKEN이 설정되지 않았습니다.")
 
