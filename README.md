@@ -78,7 +78,7 @@ GPU 환경이면 torch는 CUDA 버전으로 따로 설치하는 것을 권장합
 curl -X POST http://localhost:8000/process-images \
   -F "files=@image1.jpg" \
   -F "files=@image2.png"
-
+```
 
 응답 형식
 ```json
@@ -94,7 +94,7 @@ curl -X POST http://localhost:8000/process-images \
     }
   ]
 }
-
+```
 
 🧠 BLIP2 모델 설명
 
