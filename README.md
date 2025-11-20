@@ -118,8 +118,8 @@ curl -X POST http://localhost:8000/process-images \
 
 
 
-📌 지원 파일 형식
-  메타데이터가 포함된 이미지
+📌 지원 파일 형식  
+  -> 메타데이터가 포함된 이미지
 
 
 
